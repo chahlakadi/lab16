@@ -1,0 +1,26 @@
+Lab16
+
+1. student@ubuntu:~/Desktop/chahla/lab16$ git clone http://github.com/mirror/busybox.git
+
+2. student@ubuntu:~/Desktop/chahla/lab16$ cd busybox
+student@ubuntu:~/Desktop/chahla/lab16/busybox$ git branch -a
+
+student@ubuntu:~/Desktop/chahla/lab16/busybox$ git checkout remotes/origin/1_29_stable -b 1_29_stable
+
+3. student@ubuntu:~/Desktop/chahla/lab16/busybox$ git branch 1_29_stable
+
+4. student@ubuntu:~/Desktop/chahla/lab16/busybox$ make defconfig
+
+5. student@ubuntu:~/Desktop/chahla/lab16/busybox$ sudo apt-get install libgtk2.0-dev libglib2.0-dev libglade2-dev
+
+6.student@ubuntu:~/Desktop/chahla/lab16/busybox$ make gconfig
+
+10. student@ubuntu:~/Desktop/chahla/lab16/busybox$ find nfsroot
+
+11. student@ubuntu:~/Desktop/chahla/lab16/busybox$ cd nfsroot
+
+12. student@ubuntu:~/Desktop/chahla/lab16/busybox/nfsroot$ mkdir dev proc sys etc lib 
+student@ubuntu:~/Desktop/chahla/lab16/busybox/nfsroot$ ls
+bin  dev  etc  lib  linuxrc  proc  sbin  sys  usr
+
+13. 
